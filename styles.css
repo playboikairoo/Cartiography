@@ -1,0 +1,61 @@
+
+body{
+    text-align: center;
+    font-family: CartiFont;
+    color: red;
+    margin: 0px ;
+    background: linear-gradient(#040204,#040204);
+    
+}
+
+.intro{
+    background-image: url("images/BG.png");
+    background-size: contain;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+h1,h2{
+    
+    margin-top: 0px;
+    text-align: center;
+    border: 5px dotted red; 
+    padding: 5px 10px;
+    border-radius: 15px;
+    
+}
+.images{
+    display: flex;
+    justify-content:space-between;
+    
+}
+.d1{
+    display: inline;
+    text-align: start;
+}
+.id1,.id2,.id3{
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.i1 ,.i2 , .i3{
+    margin-top: 50px;
+    border-radius: 100%;
+    height: 200px;
+    width: 200px;
+}
+
+@font-face {
+    font-family: CartiFont ;
+    src: url(Slash\ Signature.ttf);
+}
+
+.Lsection{
+    margin-top: 100px;
+}
